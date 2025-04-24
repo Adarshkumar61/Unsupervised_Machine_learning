@@ -28,7 +28,7 @@ data.head()
 
 #as we also wwe will seperate our features:
 
-X = data.iloc[:,[3,4]].values
+X = data.iloc[:,[3,4]].values #this will sepeate our features from data
 
 # we have taken column 3 and 4
 # which is 3. Income, 4. Spending Score
