@@ -34,7 +34,7 @@ X = data.iloc[:,[3,4]].values #this will sepeate our features from data
 # which is 3. Income, 4. Spending Score
 
 #we will check if there is any missing value is present or not in our dataset:
- 
+
 data.isnull().sum()
 #so there are no missing values
 # so we will move forward
