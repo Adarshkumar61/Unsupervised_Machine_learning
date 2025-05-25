@@ -52,7 +52,7 @@ for i in range(1, 11):
 #now we will plot a graph for this 
 # to view:
 
-plt.plot(range(1,11), wcss)
+plt.plot(range(1,11), wcss) 
 plt.title('The Elbow Method') 
 plt.xlabel('No of Clusters')
 plt.ylabel('Wcss')
