@@ -65,6 +65,7 @@ plt.show()
 kmean = KMeans(n_clusters=5, init='k-means++', random_state=2)
 y = kmean.fit_predict(X)
 
+accuracy = adjusted_rand_score()
 #we will draw graph to visualize placemnet of clusters:
 plt.scatter(X[y==0,0], X[y==0,1], s=50, c= 'red', label= 'cluster1')
 plt.scatter(X[y==1,0], X[y==1,1], s=50, c= 'green', label='cluster2')
