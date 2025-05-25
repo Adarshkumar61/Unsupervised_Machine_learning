@@ -69,7 +69,7 @@ y = kmean.fit_predict(X)
 plt.scatter(X[y==0,0], X[y==0,1], s=50, c= 'red', label= 'cluster1')
 plt.scatter(X[y==1,0], X[y==1,1], s=50, c= 'green', label='cluster2')
 plt.scatter(X[y==2,0], X[y==2,1], s=50, c= 'black', label= 'cluster3')
-plt.scatter(X[y==3,0], X[y==3,1], s=50, c= 'blue', label= 'cluster4')
+plt.scatter(X[y==3,0], X[y==3,1], s=50, c= 'blue', label= 'cluster4') 
 plt.scatter(X[y==4,0], X[y==4,1], s=50, c= 'cyan', label= 'cluster5')
 
 plt.scatter(kmean.cluster_centers_[:,0], kmean.cluster_centers_[:, 1], s=100, label= 'centeroid')
